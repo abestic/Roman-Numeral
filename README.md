@@ -24,3 +24,4 @@ After cloning this repository, you can test-drive (and contribute to) the app lo
 * Start the application: `python roman.py`
 * Run unit tests: `python test.py`
 * Run functional tests: `behave` 
+* Run functional tests and produce a JUnit-compatible XML report: `behave --junit`
