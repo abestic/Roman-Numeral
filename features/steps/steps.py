@@ -22,7 +22,7 @@ def step_impl(context, input):
 
 @when(u'I enter {input}')
 def step_impl(context, input):
-  context.number = None                               # None is a non-type object that can be assigned to a variable.
+  context.number = None                               # Note: 'None' is a non-type object.
   try:
     context.number = int(input)                       # Identify integer inputs and assign them
     assert(type(context.number) == "<class 'int'>")   # to the 'number' variable to be converted.
@@ -36,8 +36,6 @@ def step_impl(context, input):
 def step_impl(context, numeral):
   context.numeral = convert(context.number)           # Convert the integer number into a Roman numeral
   assert(context.numeral == numeral)                  # and confirm it matches the intended result
-
-
 
 @then(u'I should receive an error')
 def step_impl(context):

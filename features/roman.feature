@@ -1,9 +1,7 @@
 Feature: Roman Numeral Kata
-# Input of an Arabic number results in the output of the 
-# corresponding Roman numeral. 
-# e.g. 1 = ‘I’, 5 = ‘V’, 10 = ‘X’, 20 = ‘XX’, 3999 = ‘MMMCMXCIX’
-#
-# Only need to support integer numbers 1 - 3999
+Input of an Arabic number results in the output of the corresponding Roman numeral. 
+e.g. 1 = ‘I’, 5 = ‘V’, 10 = ‘X’, 20 = ‘XX’, 3999 = ‘MMMCMXCIX’
+Only need to support integer numbers 1 - 3999
 
 
 
