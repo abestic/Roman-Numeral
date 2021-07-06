@@ -20,7 +20,7 @@ After cloning this repository, you can test-drive (and contribute to) the app lo
 
 * Setup a virtual environment for this project: `pthon -m venv venv`
 * Enter the virtual environment: `source /venv/bin/activate`
-* Install dependencies: `pip install -r requirement.txt`
+* Install dependencies: `pip install -r requirements.txt`
 * Start the application: `python roman.py`
 * Run unit tests: `python test.py`
 * Run functional tests: `behave` 
